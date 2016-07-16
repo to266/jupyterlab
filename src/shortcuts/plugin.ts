@@ -128,6 +128,26 @@ const SHORTCUTS = [
   {
     command: 'notebook-cells:select-above',
     selector: '.jp-Notebook.jp-mod-commandMode',
+    sequence: ['K'],
+  },
+  {
+    command: 'notebook-cells:select-below',
+    selector: '.jp-Notebook.jp-mod-commandMode',
+    sequence: ['J'],
+  },
+  {
+    command: 'notebook-cells:extend-above',
+    selector: '.jp-Notebook.jp-mod-commandMode',
+    sequence: ['Shift K'],
+  },
+  {
+    command: 'notebook-cells:extend-below',
+    selector: '.jp-Notebook.jp-mod-commandMode',
+    sequence: ['Shift J'],
+  },
+  {
+    command: 'notebook-cells:select-above',
+    selector: '.jp-Notebook.jp-mod-commandMode',
     sequence: ['ArrowUp'],
   },
   {
